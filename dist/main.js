@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     window.addEventListener("scroll", checkScroll);
-    checkScroll(); // Comprobar al cargar la página
+    checkScroll(); 
 });
 
 
@@ -34,19 +34,20 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     window.addEventListener("scroll", checkScroll);
-    checkScroll(); // Comprobar al cargar la página
+    checkScroll(); 
 });
 
 
 
 //collapse
+
 function toggleSitemap() {
     const sitemapLists = document.querySelectorAll('.sitemap-list');
     const toggleBtns = document.querySelectorAll('.toggle-sitemap-btn');
 
     sitemapLists.forEach((sitemapList, index) => {
         const toggleBtn = toggleBtns[index];
-
+        
         if (window.innerWidth < 576) {
             sitemapList.classList.add('collapse');
         } else {
@@ -65,6 +66,8 @@ function toggleSitemap() {
 
 window.addEventListener('load', toggleSitemap);
 window.addEventListener('resize', toggleSitemap);
+
+
 
 
 //rotate-icon
@@ -87,7 +90,7 @@ function moveOnHover(elements) {
         let translateY = 0;
         let lastTranslateX = 0;
         let lastTranslateY = 0;
-        const smoothFactor = 0.2; // Factor de suavizado
+        const smoothFactor = 0.2;
 
         element.addEventListener('mousemove', (e) => {
             const { clientX, clientY } = e;
