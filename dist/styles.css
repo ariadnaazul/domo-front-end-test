@@ -12406,7 +12406,7 @@ nav .easter-img img {
 }
 
 .client-img:hover {
-  filter: invert(960px);
+  filter: invert(90);
 }
 
 .animate-on-scroll-y {
