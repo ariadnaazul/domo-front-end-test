@@ -283,6 +283,24 @@ nav {
 }
 
 
+//hover
+.hover-blue:hover {
+  color: $primary-blue !important;
+  transition: 0.3s ease;
+}
+
+.hover-dark:hover {
+  color: $dark !important;
+  transition: 0.3s ease;
+}
+
+.hover-bold:hover {
+  font-weight: 600 !important;
+  padding: 8px 50px;
+  transition: 0.3s ease;
+}
+
+
 
 @media (min-width: 992px) and (max-width: 1200px) {
   #Services {
@@ -299,22 +317,6 @@ nav {
 @media (min-width: 992px) {
 
   //hover
-  .hover-blue:hover {
-    color: $primary-blue !important;
-    transition: 0.3s ease;
-  }
-
-  .hover-dark:hover {
-    color: $dark !important;
-    transition: 0.3s ease;
-  }
-
-  .hover-bold:hover {
-    font-weight: 600 !important;
-    padding: 8px 50px;
-    transition: 0.3s ease;
-  }
-
   #Technology {
     .technologies-container .dev-img:hover {
       filter: invert(15%);

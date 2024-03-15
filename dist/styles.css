@@ -12439,6 +12439,22 @@ nav .easter-img img {
   transform: rotate(0deg);
 }
 
+.hover-blue:hover {
+  color: #3871ff !important;
+  transition: 0.3s ease;
+}
+
+.hover-dark:hover {
+  color: #212529 !important;
+  transition: 0.3s ease;
+}
+
+.hover-bold:hover {
+  font-weight: 600 !important;
+  padding: 8px 50px;
+  transition: 0.3s ease;
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
   #Services .card h5, #Services .card .h5 {
     height: 50px;
@@ -12448,19 +12464,6 @@ nav .easter-img img {
   }
 }
 @media (min-width: 992px) {
-  .hover-blue:hover {
-    color: #3871ff !important;
-    transition: 0.3s ease;
-  }
-  .hover-dark:hover {
-    color: #212529 !important;
-    transition: 0.3s ease;
-  }
-  .hover-bold:hover {
-    font-weight: 600 !important;
-    padding: 8px 50px;
-    transition: 0.3s ease;
-  }
   #Technology .technologies-container .dev-img:hover {
     filter: invert(15%);
     opacity: 0.75;
@@ -12491,7 +12494,8 @@ nav .easter-img img {
   #Technology .dev-img {
     width: 40px;
   }
-  .animate-on-scroll-x, .animate-on-scroll-y {
+  .animate-on-scroll-x,
+  .animate-on-scroll-y {
     opacity: 1 !important;
     transform: translateX(0) !important;
     transition: none !important;
