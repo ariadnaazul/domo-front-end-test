@@ -124,19 +124,23 @@ nav {
     padding-left: 25px;
     padding-right: 25px;
   }
+
   .nav-link {
     color: $secondary;
     font-weight: 500;
   }
+
   .navbar-toggler-icon {
     filter: invert(100);
   }
+
   .nav-link:active,
   .nav-link:hover,
   .nav-link:focus {
     color: white;
   }
-  .easter-img img{
+
+  .easter-img img {
     width: 20px;
     display: none;
   }
@@ -147,6 +151,7 @@ nav {
 .text-small {
   font-size: 0.9rem;
 }
+
 .text-smallest {
   font-size: 0.7rem;
 }
@@ -212,32 +217,6 @@ nav {
   }
 }
 
-//hover
-.hover-blue:hover {
-  color: $primary-blue !important;
-  transition: 0.3s ease;
-}
-
-.hover-dark:hover {
-  color: $dark !important;
-  transition: 0.3s ease;
-}
-
-.hover-bold:hover {
-  font-weight: 600 !important;
-  padding: 8px 50px;
-  transition: 0.3s ease;
-}
-
-#Technology {
-  .technologies-container .dev-img:hover {
-    filter: invert(15%);
-    opacity: 0.75;
-  }
-}
-.client-img:hover {
-  filter: invert(90);
-}
 
 
 
@@ -298,6 +277,7 @@ nav {
   transition: transform 0.3s ease-in-out;
   transform: rotate(-90deg);
 }
+
 .rotate-icon.animate {
   transform: rotate(0deg);
 }
@@ -309,12 +289,43 @@ nav {
     .card h5 {
       height: 50px;
     }
+
     .card p {
       height: 190px;
     }
   }
 }
 
+@media (min-width: 992px) {
+
+  //hover
+  .hover-blue:hover {
+    color: $primary-blue !important;
+    transition: 0.3s ease;
+  }
+
+  .hover-dark:hover {
+    color: $dark !important;
+    transition: 0.3s ease;
+  }
+
+  .hover-bold:hover {
+    font-weight: 600 !important;
+    padding: 8px 50px;
+    transition: 0.3s ease;
+  }
+
+  #Technology {
+    .technologies-container .dev-img:hover {
+      filter: invert(15%);
+      opacity: 0.75;
+    }
+  }
+
+  .client-img:hover {
+    filter: invert(90);
+  }
+}
 
 @media screen and (max-width: 992px) {
   #Home {
@@ -322,10 +333,12 @@ nav {
       min-height: auto;
     }
   }
+
   #Technology {
     .dev-img {
       width: 50px;
     }
+
     .technologies-container {
       justify-content: space-between !important;
       display: flex !important;
@@ -334,6 +347,7 @@ nav {
       margin-top: 10px;
     }
   }
+
   #Ctas {
     .phone-img {
       width: 30%;
@@ -348,10 +362,12 @@ nav {
       width: 40px;
     }
   }
-  .animate-on-scroll-x, .animate-on-scroll-y {
-    opacity: 1 !important; 
+
+  .animate-on-scroll-x,
+  .animate-on-scroll-y {
+    opacity: 1 !important;
     transform: translateX(0) !important;
-    transition: none !important; 
+    transition: none !important;
   }
 }
 

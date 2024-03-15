@@ -12384,31 +12384,6 @@ nav .easter-img img {
   margin-top: -70px;
 }
 
-.hover-blue:hover {
-  color: #3871ff !important;
-  transition: 0.3s ease;
-}
-
-.hover-dark:hover {
-  color: #212529 !important;
-  transition: 0.3s ease;
-}
-
-.hover-bold:hover {
-  font-weight: 600 !important;
-  padding: 8px 50px;
-  transition: 0.3s ease;
-}
-
-#Technology .technologies-container .dev-img:hover {
-  filter: invert(15%);
-  opacity: 0.75;
-}
-
-.client-img:hover {
-  filter: invert(90);
-}
-
 .animate-on-scroll-y {
   opacity: 0;
   transform: translateY(90px);
@@ -12470,6 +12445,28 @@ nav .easter-img img {
   }
   #Services .card p {
     height: 190px;
+  }
+}
+@media (min-width: 992px) {
+  .hover-blue:hover {
+    color: #3871ff !important;
+    transition: 0.3s ease;
+  }
+  .hover-dark:hover {
+    color: #212529 !important;
+    transition: 0.3s ease;
+  }
+  .hover-bold:hover {
+    font-weight: 600 !important;
+    padding: 8px 50px;
+    transition: 0.3s ease;
+  }
+  #Technology .technologies-container .dev-img:hover {
+    filter: invert(15%);
+    opacity: 0.75;
+  }
+  .client-img:hover {
+    filter: invert(90);
   }
 }
 @media screen and (max-width: 992px) {
